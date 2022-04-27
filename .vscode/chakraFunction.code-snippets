@@ -1,0 +1,19 @@
+{
+	"Print to console": {
+		//"scope": "javascript,typescript",
+		"prefix": "chakraFunction",
+		"body": [
+			"import { Flex, Box, Text } from '@chakra-ui/react';",
+			"",
+			"export function ${TM_DIRECTORY/^.+\\\\(.*)$/$1/} () {",
+			"return (",
+			"<Flex>",
+			"",
+			"</Flex>",
+			");",
+			"}",
+			"",
+		],
+		"description": "Criar uma class"
+	}
+}
